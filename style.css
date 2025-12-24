@@ -6467,6 +6467,14 @@ ul {
 	margin-bottom: 30px;
 }
 
+.ingredients-description {
+	font-weight: 700;
+	font-size: 20px;
+	color: #c79972;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
 @media only screen and (max-width: 767px) {
 	.single-recipe-layout1 .making-elements-wrap .item-title {
 		font-size: 22px;
@@ -6483,6 +6491,16 @@ ul {
 	padding: 35px;
 	margin-bottom: 30px;
 }
+
+.ingridients-wrap .ingredients-link {
+    color: #5b3c07;
+    transition: color 0.2s ease;
+}
+
+.ingridients-wrap .ingredients-link:hover {
+    color: #c79972;
+}
+
 
 .single-recipe-layout1 .making-elements-wrap .ingridients-wrap .adjust-servings {
 	display: flex;
@@ -7730,6 +7748,14 @@ ul {
 	text-align: center;
 }
 
+.single-recipe-layout2 .item-description a {
+	color: #c79972;
+}
+
+.single-recipe-layout2 .item-description a:hover {
+	color: #5b3c07;
+}
+
 @media only screen and (max-width: 991px) {
 	.single-recipe-layout2 .item-description {
 		padding: 0;
@@ -8097,6 +8123,14 @@ ul {
 .single-recipe-layout2 .direction-wrap-layout2 .direction-box-layout2 .item-content {
 	margin-left: 30px;
 	flex: 1;
+}
+
+.single-recipe-layout2 .direction-wrap-layout2 .direction-box-layout2 .item-content a {
+	color: #c79972;
+}
+
+.single-recipe-layout2 .direction-wrap-layout2 .direction-box-layout2 .item-content a:hover {
+	color: #5b3c07;
 }
 
 @media only screen and (max-width: 767px) {
